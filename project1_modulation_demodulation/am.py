@@ -53,7 +53,7 @@ def main():
     plt.grid()
 
     plt.tight_layout()
-    plt.show()
+    plt.savefig("modulation_demodulation.png")
 
 
 if __name__ == "__main__":
